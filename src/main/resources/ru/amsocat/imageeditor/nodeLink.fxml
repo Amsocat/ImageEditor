@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+
+<fx:root type="BorderPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+          <Label fx:id="rightNodeLinkName" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+          <Circle fx:id="circleItem" centerX="3.5" centerY="3.5" fill="#acff00" radius="7.0" stroke="#00d4ff" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <Label fx:id="leftNodeLinkName" BorderPane.alignment="CENTER" />
+   </left>
+</fx:root>
